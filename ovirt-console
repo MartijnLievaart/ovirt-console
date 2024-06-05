@@ -114,9 +114,6 @@ except ValueError:
 if rport < 5900:
   sys.stderr.write( "The port (" + strport + ") is an unexpected number.\n" )
   sys.exit()
-if rport > 5950:
-  sys.stderr.write( "The port (" + strport + ") is an unexpected number.\n" )
-  sys.exit()
 
 # grab the password
 try:
